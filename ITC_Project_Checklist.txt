@@ -1,0 +1,36 @@
+# Author: Madhur Gattani
+# Date: 28 April 2025
+# Purpose: Final project ITC
+
+
+
+Project Checklist for ITC Final Project (Scraping and Analysis)
+
+Core Requirements:
+-------------------
+1. It must pull data from the internet (typically webpages)
+2. It must pull data from 5 different webpages (using pandas)
+3. It must do some basic calculations on numerical data from 3 of those pages (mean, median, mode, min, max)
+4. It must make use of your own methods where appropriate
+5. It must produce at least 3 charts from 3 of those pages
+6. It must save the data to a file
+
+Additional Requirements (Must have 4, More than 4 is extra credit):
+----------------------------------------------------------
+1. One of the webpages includes data that changes daily
+2. The 5 webpages are from 5 different websites
+3. It does basic calculations on all 5 of those webpages
+4. It uses BeautifulSoup on 1 of the webpages and parses the html
+5. It produces 5 charts from all 5 of the webpages
+6. It saves the charts in addition to the data, to image files
+7. It reads the previous file, and notes if any webpage has changed data
+
+Additional Features (Beyond the Requirements):
+------------------------------------------------
+1. Handles tables inside HTML comments, ensuring data is extracted even if hidden within comments
+2. Tracks and detects changes in data, comparing 'PTS' values between current and previous runs
+3. Adds a timestamp to each scraping session for tracking when data was collected
+4. Saves data to CSV files and generates multiple visualizations (bar chart, pie chart, scatter plot, histogram, and line chart)
+5. Performs data cleaning by ensuring 'PTS' is numeric and handling missing values (NaN)
+6. Summarizes key statistics (mean, median, mode, min, max) for key columns like 'PTS'
+7. Uses Seaborn and Matplotlib for high-quality visualizations with customizable styles and aesthetics
